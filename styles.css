@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    color:#666;
+}
+.container{
+    max-width: 1920px;
+    width: 100%;
+}
+header{
+    position: relative;
+    top: 0;
+    height: auto;
+    width: 100%;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    height: 100px;
+    width: 100%;
+    z-index: 1;
+    background-color: aqua;
+    border-bottom: 1px solid #ccc;
+}
