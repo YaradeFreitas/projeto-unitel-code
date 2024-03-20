@@ -1,0 +1,131 @@
+/* ADICIONAR UMA FONTE AO SITE INTEIRO; PODES USAR O GOOGLE FONTS (site: fonts.google.com)*/
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*PARA LAYOUTS RESPONSIVOS, DEVE SE EVITAR AO MÁXIMO USAR VALORES NEGATIVOS NAS PROPRIEDADES PADDING E MARGIN*/
+
+.sidebar {
+    margin-top: -10px;
+    position: fixed;
+    height: 100vh;
+    width: 17%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+}
+
+/*REDUZIR O TAMANHO DO TEXTO DOS ELEMENTOS HEADER  font-size: 22px (reduzir)*/
+.sidebar header {
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    line-height: center;
+    background: rgb(255, 255, 255);
+    user-select: none;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* REDUZIR UM POUCO O TAMANHO DO TÍTULO*/
+h2 {
+    border-right: 2px solid rgb(147, 161, 176);
+}
+
+/* REDUZIR TAMBÉM O TAMANHO DO TEXTO DO MENU */
+#contador {
+    height: 100%;
+    width: 100%;
+    line-height: 46px;
+    background-color: rgba(209, 232, 241, 0.128);
+    font-size: 20px;
+    box-sizing: border-box;
+    border-top: solid rgb(164, 176, 186);
+    border-bottom: 1px solid rgb(136, 82, 82);
+    margin-right: 16px;
+    border-right: 2px solid rgb(147, 161, 176);
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #fff;
+}
+
+/* SÓ PARA TERES */
+
+
+/* DEVES ADD O ELEMENTO PAI DESTE ELEMENTO ANTES, E ADD AS PROPRIEDADES PARA O FLEXBOX */
+/* EX PARA O MAIN-BANNER */
+/* .main-banner{
+        width
+    */
+.flex {
+    position: center;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem {
+    width: 60%;
+    height: 300px;
+    border-radius: 5%;
+    margin-top: 25px;
+    margin-left: 28%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    margin-left: 50%;
+    margin-top: -150px;
+    margin-right: 450px;
+
+}
+
+.ultimo {
+    margin-top: 150%;
+}
+
+.chuva {
+    margin-left: 20%;
+    border-radius: 5%;
+    margin-top: 100px;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ch-txt {
+    margin-left: 20%;
+    margin-right: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    border-top: 2px solid rgb(164, 176, 186);
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.crime {
+    width: 140px;
+    margin-left: 380px;
+    height: 140px;
+    margin-right: 50%;
+    margin-top: -250px;
+    border-radius: 5%;
+}
+
+.crimetxt {
+    text-align: left;
+}

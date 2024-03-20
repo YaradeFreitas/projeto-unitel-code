@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Noticias na hora</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+    </head>
+    <body>
+        <div class="sidebar">
+            <header>
+                <h2>Noticias na Hora</h2>
+                <ul id="contador">
+                    <li>Principal</li>
+                    <li>Recentes</li>
+                    <li>Doações</li>
+                    <li>Contactos</li>
+                    <li>Salvos</li>
+                    <li>Meu perfil</li>
+                    <li class="ultimo">Ajuda e Informação</li>
+                </ul>
+            </header>
+        </div>
+        <!-- ESTE ELEMENTO (main-banner) NÃO CONSTA NA FOLHA DE ESTILOS -->
+        <!-- SÓ PARA TERES UM MELHOR CONTROLO DOS ELEMENTOS, CONVÉM CRIARES UM ELEMENTO PAI QUE VAI AGREGRAR TODOS ELEMENTOS-->
+        <div id="main-banner">
+            <div id="search-form">
+
+            </div>
+            <img src="angola img.jpg" class="imagem" alt="angola">
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <form class="flex" role="pesquisar">
+                        <!-- PARA PODERES USAR O BOTÃO C/ BOOTSTRAP, DEVES INCLUIR O LINK DO BOOTSTRAP -->
+                        <!-- PODES BAIXAR O BOOTSTRAP, ADD NUMA PASTA DO TEU PROJECTO E DEPOIS INCLUIR O ARQUIVO BOOTSTRAP.MIN.CSS A PARTIR DA TAG LINK -->
+                        <input class="form-control me-2" type="pesquisar"
+                            placeholder="pesquisar" aria-label="Search">
+                        <!-- O MESMO PARA O BOTÃO, DEVES INCLUIR O LINK DO BOOTSTRAP -->
+                        <button class="btn btn-outline-success"
+                            type="submit">pesquisar</button>
+                        <!-- NOTA: AO INCLUIRES O LINK BOOTSTRAP, ALGUNS ELEMENTOS PODERÃO MUDAR DE ESTILO, ISSO PQ O BOOTSTRAP POSSUI ALGUMAS CONFIGURAÇÃOES PADRONIZADAS -->
+
+                    </form>
+                </div>
+            </nav>
+        </div>
+
+    </body>
+    <div>
+        <img src="chuva angola.jpg" class="chuva" alt="chuva">
+        <h3 class="ch-txt">Vias intransitáveis, inundações, casas alagadas,
+            carros a circular por estradas transformadas em rios é o cenário que
+            se verifica, esta quinta-feira, em Luanda, devido às chuvas
+            acompanhadas com fortes trovoadas e registo de desaparecimento de um
+            jovem.</h3>
+    </div>
+
+    <div class="crime">
+        <img src="crimi unitel.jpeg" class="crime">
+        <h3 class="crimetxt"></h3> A escalada da criminalidade a nível de Viana
+        preocupa cada vez mais os munícipes
+    </div>
+</html>
